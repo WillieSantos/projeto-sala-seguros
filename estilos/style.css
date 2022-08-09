@@ -153,8 +153,7 @@ section.imagem {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;    
-    background-image: url('../imagens/background.jpg');
-      
+    background-image: url('../imagens/background.jpg');     
 }
 
 section.imagem  > h1 {
@@ -164,13 +163,13 @@ section.imagem  > h1 {
     text-align: center;
     padding-bottom: 2em;
     color: black;
-    font-size: 0.9em;
+    font-size: 1em;    
 }
 
 section.imagem  > p {    
     padding: 5px;    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
-    font-size: 0.7em;
+    font-size: 0.8em;
     padding-bottom: 2.2em;
     font-weight: bold;
     color: white;
@@ -245,5 +244,6 @@ ul.titulos li {
     padding-top: 30px;
     padding-bottom: 30px;
     color: var(--cor01);
+    font-size: 0.8em;
 }
 
