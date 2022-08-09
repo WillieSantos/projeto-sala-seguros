@@ -164,13 +164,13 @@ section.imagem  > h1 {
     text-align: center;
     padding-bottom: 2em;
     color: black;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
 }
 
 section.imagem  > p {    
     padding: 5px;    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding-bottom: 2em;
     font-weight: bold;
     color: white;
@@ -178,7 +178,7 @@ section.imagem  > p {
 
 section.imagem > a {    
     text-decoration: none;    
-    font-size: 1.5vw;    
+    font-size: 2.5vw;    
     font-weight: bold;
     text-transform: uppercase;
     padding: 10px;
