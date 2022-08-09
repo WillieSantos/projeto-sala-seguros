@@ -192,14 +192,24 @@ section.imagem > a:hover {
     background-color: darkgreen;    
 }
 
+#seguradoras {
+    text-align: center;
+    font-family: var(--font-nav);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
-
-
+article picture {
+    display: block;
+    text-align: center;
+    padding-top: 20px;    
+    padding-bottom: 20px;    
+}
 
 #salamaps {
     overflow: hidden;
-    padding-bottom: 30%;
+    padding-bottom: 25%;
     position: relative;
     height: 0;
 }
