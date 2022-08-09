@@ -140,8 +140,8 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 1.3em;
-    padding-left: 30px;
+    line-height: 1.5em;
+    padding-left: 13px;
     font-family: var(--font-img);
     font-size: 3.5vw;
 }
@@ -164,21 +164,21 @@ section.imagem  > h1 {
     text-align: center;
     padding-bottom: 2em;
     color: black;
-    font-size: 4.5vw;
+    font-size: 0.9em;
 }
 
 section.imagem  > p {    
     padding: 5px;    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
-    font-size: 3.5vw;
-    padding-bottom: 2em;
+    font-size: 0.7em;
+    padding-bottom: 2.2em;
     font-weight: bold;
     color: white;
 }
 
 section.imagem > a {    
     text-decoration: none;    
-    font-size: 2.5vw;    
+    font-size: 0.6em;    
     font-weight: bold;
     text-transform: uppercase;
     padding: 10px;
