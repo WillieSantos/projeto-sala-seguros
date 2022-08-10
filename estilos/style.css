@@ -89,9 +89,8 @@ nav {
 
     .mobile-menu {
         display: block;               
-    }
-    
-    
+    }  
+        
 }
 
 .nav-list.active {
@@ -109,7 +108,6 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
 
 @keyframes navLinkFade {
     from {
@@ -133,12 +131,6 @@ a:hover {
     color: var(--cor04);    
 }
 
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -147,7 +139,6 @@ section {
     font-family: var(--font-img);
     font-size: 3.5vw;
 }
-
 
 section.imagem {
     background-color: rgba(0, 0, 0, 0.359);
@@ -191,11 +182,11 @@ section.imagem > a {
 
 section.imagem > a:hover {
     transition: 0.7s;
-    background-color: darkgreen;    
+    background-color: #157638;    
 }
 
 main img {
-    width: 80%;
+    width: 75%;    
     margin: auto;
     display: block;
 }
@@ -207,9 +198,6 @@ main img {
     padding-bottom: 10px;
     font-size: 1.5em;    
 }
-
-
-
 
 #salamaps {
     overflow: hidden;
@@ -226,32 +214,70 @@ main img {
     position: absolute;
 }
 
-div.rodape {
+.rodape {
     display: flex;
-    
-    align-items: center;
-    font-family: var(--font-img);
-    background-color: var(--cor01);
-    height: 10vh;
-    width: 100%;    
+    justify-content: space-around;       
+    background-color: #013767;
+    font-family: var(--font-nav);
+    color: white;
+    margin: auto;    
+    padding-top: 40px;
+    height: 250px;  
 }
 
-ul.titulos {
+.foot-list {
     list-style: none;
     display: flex;
+    padding-top: 17px;    
+}
+
+.foot-list li {    
+    margin-left: 50px;
+}
+
+.foot-titulo {
+    text-transform: uppercase;
     font-weight: bold;
+    padding-bottom: 50px;
+    letter-spacing: 1px;    
 }
 
-ul.titulos li {
-    letter-spacing: 1px;
-    margin-left: 32px;    
+.foot-colunas {
+    padding-top: 20px;
+    line-height: 1.5em;
+}
+
+.links {
     color: white;
-    min-width: 2em;        
+    letter-spacing: 1px;                 
 }
 
-#logorodape {
-    padding-right: 80px;
+.links:hover {
+    transition: 0.7s;    
 }
+
+
+#bot-msg {
+    text-decoration: none;    
+    font-size: 0.6em;    
+    font-weight: bold;
+    text-transform: uppercase;    
+    padding: 8px;    
+    color: var(--cor01);
+    background-color: white;
+    letter-spacing: 2px;
+}
+
+#bot-msg:hover {
+    color: white;
+    transition: 0.7s;
+    background-color: #157638;
+}
+
+.foot-list a {
+    text-decoration: none;
+}
+
 #prodape {
     text-align: center;
     padding-top: 30px;
