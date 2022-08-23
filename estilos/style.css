@@ -9,6 +9,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 :root {
@@ -160,7 +161,7 @@ section.imagem > a:hover {
 }
 
 main img {
-    width: 75%;    
+    width: 100%;    
     margin: auto;
     display: block;
 }
@@ -188,71 +189,59 @@ main img {
     position: absolute;
 }
 
-.rodape {
-    display: flex;
-    justify-content: space-around;       
-    background-color: #013767;
-    font-family: var(--font-nav);
+footer{
+    background-color: #014c8e;
     color: white;
-    margin: auto;    
-    padding-top: 40px;
-    height: 250px;      
+    padding-top: 50px;    
 }
-
-.foot-list {
-    list-style: none;
-    display: flex;
-    padding-top: 17px;
-        
-}
-
-.foot-list li {    
-    margin-left: 50px;
-}
-
-.foot-titulo {
-    text-transform: uppercase;
-    font-weight: bold;
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
     padding-bottom: 50px;
-    letter-spacing: 1px;
-        
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;        
 }
 
-.foot-colunas {
-    padding-top: 20px;
-    line-height: 1.5em;
+.footer-col{
+    width: 25%;
+    padding: 0 15px;    
     
 }
 
-.links {
-    color: white;
-    letter-spacing: 1px;                 
+.footer-col h4{
+    font-size: 20px;    
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
 }
 
-.links:hover {
-    transition: 0.7s;    
+.footer-col p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
 }
-
-
-#bot-msg {
-    text-decoration: none;    
-    font-size: 0.6em;    
-    font-weight: bold;
-    text-transform: uppercase;    
-    padding: 8px;    
-    color: var(--cor01);
-    background-color: white;
-    letter-spacing: 2px;
+.footer-col ul{
+    list-style: none;
 }
-
-#bot-msg:hover {
-    color: white;
-    transition: 0.7s;
-    background-color: #157638;
+.footer-col ul li{
+    margin: 10px 0;
 }
-
-.foot-list a {
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize; 
+    color: white;   
     text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
 }
 
 #prodape {
@@ -261,5 +250,6 @@ main img {
     padding-bottom: 30px;
     color: var(--cor01);
     font-size: 0.8em;
+    background-color: var(--cor05);
 }
 
