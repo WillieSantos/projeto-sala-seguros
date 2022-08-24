@@ -44,6 +44,20 @@
 @media (max-width:600px) {
     .footer-col{
         width: 100%;
+    }    
+}
+
+@media (max-width: 450px) {
+    section.imagem  > h1 {
+        font-size: 13pt;
     }
+    section.imagem  > p {
+        font-size: 10pt;
+    }
+    section.imagem > a {
+        font-size: 8pt;
+        padding: 7px;
+        border-radius: 15px;
+    } 
 }
 
