@@ -29,7 +29,9 @@
 
     .mobile-menu {
         display: block;                       
-    }    
+    }
+    
+    
 }
 
 @media (max-width:850px) {

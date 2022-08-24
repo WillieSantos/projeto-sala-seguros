@@ -245,6 +245,24 @@ footer{
     padding-left: 10px;
 }
 
+#bot-msg {
+    text-decoration: none;    
+    font-size: 0.7em;    
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 7px;
+    color: #014c8e;
+    background-color: white;
+    letter-spacing: 2px;    
+}
+
+#bot-msg:hover {
+    transition: 0.7s;
+    background-color: var(--cor04); 
+    color: white;   
+}
+
 #prodape {
     text-align: center;
     padding-top: 30px;
