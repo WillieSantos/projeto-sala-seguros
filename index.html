@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/mobile.css">    
     <title>Sala Seguros</title>
@@ -14,20 +15,22 @@
 <body>   
     <header>
         <nav>
-            <a href="#"><img src="imagens/sala-logo.png" alt="Logomarca Sala Seguros"></a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+            <div class="logbur">
+                <div class="logo"><a href="index.html"><img src="imagens/sala-logo.png" alt="Logomarca Sala Seguros"></a></div>
+                <div>
+                    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+                </div>
             </div>
-            <ul class="nav-list">                      
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Seguros</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">Fale Conosco</a></li>                       
-            </ul>
-        </nav>        
-    </header>   
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Seguros</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Fale Conosco</a></li>                    
+                </ul>
+            </menu>           
+        </nav>            
+    </header>  
     <main>              
         <article>
             <section class="imagem">
@@ -85,22 +88,13 @@
                 </div>
                 <!--end footer col-->
             </div>
-        </div>
-            
-        <!--
-                          
-           
-                
-                        <a href="https://wa.me/5584998551770?text=Olá,%20vim%20através%20do%20site%20e%20desejo%20informações." id="bot-msg" target="_blank">Enviar Mensagem</a> <br>
-                 
-                
-        -->               
+        </div>                   
         <p id="prodape">Sala Seguros © 2022. Todos os direitos reservados</p>    
     </footer>        
-        <a href="https://wa.me/5584998551770?text=Olá,%20vim%20através%20do%20site%20e%20desejo%20informações." style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+        <a href="https://wa.me/5584998551770?text=Olá,%20vim%20através%20do%20site%20e%20desejo%20informações." style="position:fixed;width:60px;height:60px;bottom:40px;right:10px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
         z-index:1000;" target="_blank">                       
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-        </a>
-    <script src="mobile-navbar.js"></script>    
+        </a>    
+    <script src="menu.js"></script>    
 </body>
 </html>
