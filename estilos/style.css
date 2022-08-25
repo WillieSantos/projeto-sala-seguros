@@ -32,8 +32,25 @@ body, html {
     overflow-x: hidden;           
 }
 
-div.logo {
-    margin: 20px;
+nav {    
+    display: flex;    
+    width: 100%;      
+    justify-content: space-between;    
+    flex-wrap: wrap;
+    padding: 15px;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor01);   
+    
 }
 
 #burguer {
