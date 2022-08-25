@@ -35,9 +35,9 @@ body, html {
 nav {    
     display: flex;    
     width: 100%;      
-    justify-content: space-between;    
+    justify-content: space-around;    
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 10px;
     align-items: center;
 }
 
@@ -47,10 +47,19 @@ nav ul {
 }
 
 nav ul li a {
-    padding: 10px;
+    padding-left: 20px;
     text-decoration: none;
-    color: var(--cor01);   
-    
+    color: var(--cor01);
+    margin-right: 30px;   
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-family: var(--font-img);
+    font-weight: bold;        
+}
+
+nav ul li a:hover {
+    color: var(--cor04);
+    transition: 0.3s;        
 }
 
 #burguer {
@@ -107,7 +116,7 @@ section.imagem > a {
 }
 
 section.imagem > a:hover {
-    transition: 0.7s;
+    transition: 0.7s;       
     background-color: #157638;    
 }
 
@@ -118,11 +127,19 @@ main img {
 }
 
 .segprod {
+    text-align: center;    
+    padding-top: 30px;    
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #222222;      
+}
+
+article p {
+    color: #737373;
     text-align: center;
-    font-family: var(--font-nav);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.5em;    
+    text-indent: 20px;
+    padding: 5px;
 }
 
 #salamaps {
