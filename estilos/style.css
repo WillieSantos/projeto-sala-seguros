@@ -128,7 +128,7 @@ main img {
 
 .segprod {
     text-align: center;    
-    margin-top: 70px;    
+    margin-top: 50px;    
     font-size: 1.5em;
     font-weight: bold;    
     color: #222222;      
@@ -192,13 +192,13 @@ article #subtit {
 picture {
     display: block;
     margin: auto;
-    padding: 10px;
+    padding-top: 50px;
 }
 
 picture img {
     width: 200px;
+    max-height: 80px;
 }
-
 
 #visit {
     background-color: var(--cor01);
