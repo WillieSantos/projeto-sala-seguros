@@ -74,6 +74,52 @@ section {
     font-family: var(--font-img);
     font-size: 3.5vw;
 }
+.linkp {
+    padding-bottom: 50px;       
+}
+.linkp a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 11pt; 
+}
+
+.titulo {
+    font-size: 25pt;
+    font-weight: 600;    
+}
+.text {
+    text-align: justify;
+    color: #737373;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 12px;
+    font-size: 13pt;       
+}
+
+#textf {
+    margin-bottom: 30px;
+}
+
+.desc {
+    display: block;
+    margin: auto;
+    align-items: center;
+    max-width: 350px;    
+}
+.desc img {
+    width: 250px;
+}
+
+.desc h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.desc p {
+    text-align: center;
+    font-size: 11pt;
+    
+}
 
 section.imagem {
     background-color: rgba(0, 0, 0, 0.359);
@@ -193,6 +239,7 @@ picture {
     display: block;
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 picture img {
