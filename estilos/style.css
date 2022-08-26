@@ -146,7 +146,7 @@ article #subtit {
     padding: 0 4%;
     margin: auto;
     padding-bottom: 50px;
-    padding-top: 50px;   
+    padding-top: 50px;       
 }
 
 .grid-row {
@@ -156,14 +156,20 @@ article #subtit {
 
 .grid-item {
     width: 33%;
-    padding: 0 30px;
-    margin-bottom: 20px; 
+    padding: 0 15px;
+    margin-bottom: 20px;     
 }
 
 .grid-h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #222222;
+    color: black;
+}
+
+.grid-h3:hover {
+    color: rgb(78, 78, 78);
+    transition: 0.3s;
+    
 }
 
 .grid-p {
@@ -171,19 +177,27 @@ article #subtit {
     color: #737373;
     margin-bottom: 10px;    
 }
+
 .grid-item a {    
     text-decoration: none;
     color: var(--cor01);
-    font-weight: bold;
+    font-weight: normal;
 }
 
-
-
-
-
-.grid-item a {
-    
+.grid-item a:hover {
+    color: var(--cor04);
+    transition: 0.3s;
 }
+
+picture {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+picture img {
+    width: 200px;
+}
+
 
 #visit {
     background-color: var(--cor01);
@@ -192,8 +206,6 @@ article #subtit {
     padding-top: 50px;
     padding-bottom: 50px;             
 }
-
-
 
 #salamaps {
     overflow: hidden;
