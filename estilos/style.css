@@ -240,11 +240,14 @@ picture {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 picture img {
-    width: 200px;
-    max-height: 80px;
+    height: 80px;
+    width: 190px;
+    
+    
 }
 
 #visit {
