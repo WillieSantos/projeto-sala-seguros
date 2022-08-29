@@ -130,13 +130,13 @@ section {
     content: "📧";
     display: block;
     
-  }
+}
 
-  #obg::before {
-    content: "🐅";
-    display: block;
-  }
-    
+#obg {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 .form {
