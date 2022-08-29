@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/mobile.css"> 
-    <title>Quem Somos | Sala Seguros</title>
+    <link rel="stylesheet" href="estilos/mobile.css">    
+    <title>Fale Conosco | Sala Seguros</title>
 </head>
-<body>
+<body class="contatob">
     <header>
         <nav>
             <div class="logbur">
@@ -33,17 +33,32 @@
     </header>
     <main>
         <div class="grid-container">
-            <p class="linkp"><a href="index.html">Home</a> > <a href="quemsomos.html">Quem Somos</a></p>
-            <h3 class="titulo">Sobre a empresa</h3>
-            <p class="text">Em 1998, surgiu a ideia de uma empresa, que muito além de poder assessorar pessoas na garantia do seu patrimônio, pudesse, especialmente, construir um legado de segurança, credibilidade e gentileza . Nasceu, então, a Sala Corretora de Seguros.</p>
-            <p class="text">Salatiel Limeira, sócio-fundador, na época com 18 anos, sempre teve como objetivo principal aliar confiança à agilidade para inovar o atendimento de consumidores de seguros.</p>
-            <p class="text">Após 22 anos, a excelência da Sala é o que mais ganha luz aos olhos dos clientes e parceiros, fazendo com que tenha se consolidado como uma das mais confiáveis e eficientes corretoras de seguros do mercado brasileiro, reforçando a cada dia a sua cultura tão marcante de segurança, credibilidade e gentileza.</p>
-            <p class="text" id="textf">Não à toa, os principais valores da Sala são: Excelência no atendimento, honestidade, responsabilidade, eficiência, confiança e empatia, fazendo o que é certo, sempre.</p>
-            <div class="desc">                
-                <img src="imagens/salatiel.png" alt="Salatiel">
-                <h3>Salatiel Limeira</h3>
-                <p class="text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti commodi quo suscipit quas eaque blanditiis impedit natus hic minus harum veniam, dolores, omnis aperiam molestias, pariatur deserunt similique? Libero?"</p>
-            </div>            
+            <p class="linkp"><a href="index.html">Home</a> > <a href="contato.html">Fale Conosco</a></p>
+            <h3 class="titulo" id="formcont">Formulário de Contato</h3>
+            <form
+            action="https://formsubmit.co/willie_santos@hotmail.com"
+            method="POST"
+            class="form"
+            >
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required />
+            <label for="fone">Telefone</label>
+            <input type="tel" name="fone" id="fone" placeholder="(xx)xxxxx-xxxx">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" placeholder="Digite sua mensagem" required></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+                type="hidden"
+                name="_next"
+                value="https://williesantos.github.io/projeto-sala-seguros/obrigado.html"
+            />
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="salamaps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15893.948187302387!2d-37.359381277539086!3d-5.1858427897912085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ba06e14fb7aee9%3A0xf04b702484df1706!2sSala%20Corretora%20de%20Seguros!5e0!3m2!1spt-BR!2sbr!4v1661434566761!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
@@ -89,6 +104,6 @@
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
         </a>    
     <script src="menu.js"></script>
-    <script src="slides.js"></script>    
+    <script src="slides.js"></script>
 </body>
 </html>
